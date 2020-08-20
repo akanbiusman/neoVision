@@ -179,11 +179,11 @@ ul>.getIn:hover {
     border-radius: 5px;
     padding: 15px;
     margin: 0 0 15px;
-    width: 100%;
+    width: 160px;
 }
 
 #form>.submit>input {
-    width: 100%;
+    width: 160px;
     padding: 15px;
     font-size: 14px;
     border-radius: 5px;
