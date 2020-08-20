@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:link {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    height: 10vh;
+    background: #b1cfb1;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    color: #fff;
+}
+
+ul>.getIn {
+    background: #8cd38c;
+    color: #fff;
+}
+
+ul>.getIn:hover {
+    background: #7acf7a;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+#contents {
+    padding: 10px 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#message {
+    display: column;
+}
+
+#message>h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#message>.para2>.learn {
+    background: #8cd38c;
+    color: #fff;
+    padding: 10px;
+}
+
+#message>.para2>.contact {
+    color: #8cd38c;
+    border-bottom: 2px solid #8cd38c;
+    padding: 10px;
+}
+
+#picture>img {
+    height: 350px;
+}
+
+#partners {
+    padding: 50px;
+    text-align: center;
+}
+
+#partners>p {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#partners>#partnersLogo>a>img {
+    opacity: 0.5;
+    padding-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#partners>#partnersLogo>a>img:hover {
+    opacity: 0.3;
+}
+
+#foot {
+    background: #2d302d;
+}
+
+#contact {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact>#part1>.cont {
+    color: #8cd38c;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact>#part1>h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #bad1ba;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact>#part1>.lastP {
+    font-size: 20px;
+    font-weight: 500;
+    color: #bad1ba;
+    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact>#part1>.lastP>span {
+    font-size: 20px;
+    color: #8cd38c;
+    border-bottom: 2px solid #8cd38c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact>#part1>#phone>h2 {
+    font-size: 20px;
+    padding-top: 40px;
+    opacity: 0.5;
+    color: #bad1ba;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact>#part1>#phone>.infos {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+    color: #8cd38c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form>.form>input {
+    border: 0;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 15px;
+    width: 250px;
+}
+
+#form>.submit>input {
+    width: 250px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #8cd38c;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+#footer>p {
+    font-size: 24px;
+    color: #bad1ba;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 750px) {
+    #header {
+        float: none;
+        display: flex;
+        justify-content: space-evenly;
+        height: 15vh;
+    }
+
+    #ab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #beg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
